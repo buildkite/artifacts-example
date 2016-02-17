@@ -3,7 +3,7 @@
   "steps": [
     {
       "type": "script",
-      "name": ":arrow_double_up: Generate artifacts",
+      "name": ":arrow_double_up::package: Generate artifacts",
       "command": "generate_artifacts.sh"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "type": "script",
-      "name": ":arrow_double_down: Fetch artifacts",
+      "name": ":arrow_double_down::package: Fetch artifacts",
       "command": "fetch_artifacts.sh"
     }
   ]
