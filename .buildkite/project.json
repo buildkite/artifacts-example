@@ -7,6 +7,9 @@
       "command": "generate_artifacts.sh"
     },
     {
+      "type": "waiter"
+    },
+    {
       "type": "script",
       "name": ":arrow_double_down: Fetch artifacts",
       "command": "fetch_artifacts.sh"
