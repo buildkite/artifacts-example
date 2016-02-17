@@ -2,7 +2,7 @@
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
-This repository is an example [Buildkite](https://buildkite.com/) pipeline that shows how to generate and download build artifacts across build steps (which could be running on different build machines for example).
+This repository is an example [Buildkite](https://buildkite.com/) pipeline that shows how to generate and download [build artifacts](https://buildkite.com/docs/guides/artifacts) across build steps (which could be running on different build machines for example).
 
 There are two example steps:
 
