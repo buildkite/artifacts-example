@@ -1,0 +1,6 @@
+steps:
+- label: ":arrow_double_up::package: Generate artifacts"
+  command: "generate_artifacts.sh"
+- wait
+- label: ":arrow_double_down::package: Fetch artifacts"
+  command: "fetch_artifacts.sh"
