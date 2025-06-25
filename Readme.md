@@ -10,17 +10,15 @@ See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-s
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
+<a href="https://buildkite.com/buildkite/artifacts-example/builds?branch=main">
+  <img width="1491" alt="Screenshot of Buildkite artifacts example pipeline" src="./assets/screenshot.png" />
+</a>
+
 ## How it works
 There are two example steps:
 
 * [generate_artifacts.sh](generate_artifacts.sh) - this creates a simple artifact
 * [fetch_artifacts.sh](fetch_artifacts.sh) - this fetches and prints the artifact
-
-Here's how it looks on the Buildkite build page. See the [live pipeline](https://buildkite.com/buildkite/artifacts-example) to interact with it!
-
-<a href="https://buildkite.com/buildkite/artifacts-example/builds?branch=main">
-  <img width="1491" alt="Screenshot of Buildkite artifacts example pipeline" src="./assets/screenshot.png" />
-</a>
 
 ## License
 
