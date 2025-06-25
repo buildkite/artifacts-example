@@ -1,6 +1,6 @@
 # Buildkite Artifacts Pipeline Example
 
-[![Build status](https://badge.buildkite.com/aab023f2f33ab06766ed6236bc40caf0df1d9448e4f590d0ee.svg?branch=main)](https://buildkite.com/buildkite/artifact-example)
+[![Build status](https://badge.buildkite.com/a947f64837044296a1ea4394819872e0544a4647a3400e6634.svg)](https://buildkite.com/buildkite/artifacts-example)
 
 This repository is an example [Buildkite](https://buildkite.com/) pipeline that shows how to generate and download [build artifacts](https://buildkite.com/docs/guides/artifacts) across build steps (which could be running on different build machines for example).
 
