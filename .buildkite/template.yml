@@ -1,12 +1,10 @@
-# template.yml
-# Use this as a starting point for your own Buildkite pipeline
-name: "Artifacts Pipeline Example"
-description: "An example repository you can use as a test project with Buildkite"
+name: "Bazel Python Package Example"
+description: "An example pipeline that builds, tests, and packages a Python library using Bazel."
+emoji: ":bazel:"
+color: "gray-100"
+languages:
+  - "Python"
+  - "Starlark"
 steps:
-  - label: ":arrow_double_up::package: Generate artifacts"
-    command: "./generate_artifacts.sh"
-
-  - wait
-
-  - label: ":arrow_double_down::package: Fetch artifacts"
-    command: "./fetch_artifacts.sh"
+  - label: ":pipeline:"
+    command: "buildkite-agent pipeline upload"
