@@ -1,7 +1,6 @@
 name: "Bazel Python Package Example"
 description: "An example pipeline that builds, tests, and packages a Python library using Bazel."
-emoji: ":bazel:"
-color: "gray-100"
+emoji: ":package:"
 languages:
   - "Python"
   - "Starlark"
