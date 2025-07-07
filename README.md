@@ -24,4 +24,4 @@ There are two example steps:
 
 ## License
 
-See [Licence.md](Licence.md) (MIT)
+See [LICENSE.md](LICENSE.md) (MIT)
