@@ -4,6 +4,7 @@ emoji: ":package:"
 languages:
   - "Python"
   - "Starlark"
+  - "YAML"
 steps:
   - label: ":pipeline:"
     command: "buildkite-agent pipeline upload"
